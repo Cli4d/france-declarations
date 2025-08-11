@@ -3,10 +3,12 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.volkswagen.fr/fr/footer/politique-de-confidentialite.html",
-      "select": {
-        "startBefore": ".StyledMainContentWrapper-hViDYX h1",
-        "endBefore": "div.StyledSkipLinkTargetWrapper-TTkYZ footer"
-      }
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "nav"
+      ]
     }
   }
 }
